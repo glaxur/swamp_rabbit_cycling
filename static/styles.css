@@ -1,0 +1,101 @@
+
+body{
+   text-align: center;
+}
+
+header{
+  /*background-image: url("background.jpeg");*/
+   background-color: lightgrey;
+}
+
+.container{
+   max-width: 480px;
+   margin: 0 auto;
+   ;
+}
+
+.bringing{
+   border: 2px solid lightgray;
+   margin: 0;
+}
+
+.main-heading{
+   margin-bottom: 0;
+}
+
+
+.hello{
+   display: none;
+}
+
+.contact{
+   width: 480px;
+   height: 275px;
+   border: 2px solid lightgray;
+}
+
+.lastp {
+   padding-top: 15px;
+   font-size: 20px;
+}
+
+h3{
+   padding-top: 10px;
+   font-size: 25px;
+   padding-bottom:40px;
+}
+
+a{
+   color: black;
+   font-size: 20px;
+}
+
+
+@media only screen and (min-width: 480px) {
+  .container {
+      margin: 0 auto;
+      max-width: 100%;
+
+  }
+
+   * {
+       width: 900px;
+       text-align: center;
+       margin: 0 auto;
+   }
+
+   .contact {
+       width: 900px;
+       text-align: center;
+   }
+
+
+   .logo{
+       width: 300px;
+       height:150px;
+   }
+
+   img{
+       display: inline-block;
+       width:250px;
+
+   }
+
+   .hello{
+       display: block;
+       border: 2px solid lightgray;
+       width: 900px;
+       height: 150px;
+       font-size: 30px;
+       text-align: center;
+   }
+
+   .from{
+       width:60%;
+       height: 40%;
+   }
+
+   .contact{
+       height: 160px;
+   }
+}
